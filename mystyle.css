@@ -1,0 +1,16 @@
+.kepek{
+    max-width: 600px;
+}
+#tartalom{
+    margin-top: 100px;
+    /*margin-top: 80px;
+    padding-left: 11rem;
+    font-family: Verdana;
+    color: #416618;
+    font-weight: bold;*/
+}
+.hatter{
+    background-color: rgba(6, 192, 0)!important;
+    /*opacity: 75%;*/
+    color: black;
+}
