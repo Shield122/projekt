@@ -72,6 +72,10 @@
 </div>
 
 <?php
+  
+?>
+
+<?php
   include "kepek.php";
 ?>
 
