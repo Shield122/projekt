@@ -35,6 +35,10 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="index.php?p=reszletek.php&id=1">Hüllők</a>
           <a class="dropdown-item" href="index.php?p=reszletek.php&id=2">Emlősök</a>
+          <a class="dropdown-item" href="index.php?p=reszletek.php&id=3">Rovarok</a>
+          <a class="dropdown-item" href="index.php?p=reszletek.php&id=4">Kétéltűek</a>
+          <a class="dropdown-item" href="index.php?p=reszletek.php&id=5">Érzékpálcások</a>
+          <a class="dropdown-item" href="index.php?p=reszletek.php&id=6">Galandférgek</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -47,7 +51,7 @@
         </div>
       </li>
         <li class="nav-item"> <a class="nav-link" href="#gallery">Image Gallery</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="index.php?p=contact.php">Kapcsolat</a> </li>
         </ul>
       </div>
             </div>

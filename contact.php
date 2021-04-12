@@ -1,4 +1,12 @@
-<!--Section: Contact v.2-->
+<?php
+    if(isset($_POST['send'])){
+        extract($_POST);
+        include "mail.php";
+    }
+
+?>
+
+<div class="container">
 <section class="mb-4">
 
     <!--Section heading-->
@@ -11,7 +19,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -62,29 +70,29 @@
                     </div>
                 </div>
                 <!--Grid row-->
-
-            </form>
-
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <button name="send" class="btn btn-primary">Mentés</button>
             </div>
             <div class="status"></div>
         </div>
+            </form>
+
+            
         <!--Grid column-->
 
         <!--Grid column-->
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>San Francisco, CA 94126, USA</p>
+                    <p>Magyarország Természet u. 15 </p>
                 </li>
 
                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
+                    <p>+ 36 70 853 8574</p>
                 </li>
 
                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
+                    <p>zarodolgozattesztelesre@gmail.com</p>
                 </li>
             </ul>
         </div>
@@ -93,4 +101,4 @@
     </div>
 
 </section>
-<!--Section: Contact v.2-->
+</div>
