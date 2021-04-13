@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="gallery.css">
     <title>Természet</title>
   </head>
   <body>
@@ -50,7 +56,7 @@
           <a class="dropdown-item" href="index.php?p=reszletek.php&id=2">Emlősök</a>
         </div>
       </li>
-        <li class="nav-item"> <a class="nav-link" href="#gallery">Image Gallery</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="index.php?p=gallery.php">Image Gallery</a> </li>
         <li class="nav-item"> <a class="nav-link" href="index.php?p=contact.php">Kapcsolat</a> </li>
         </ul>
       </div>
@@ -72,7 +78,9 @@
 </div>
 
 <?php
-  
+  if(isset($_POST["kuldes"])){
+    include('uzenet.php');
+  }
 ?>
 
 <?php

@@ -1,7 +1,7 @@
 <?php
     if(isset($_POST['send'])){
         extract($_POST);
-        include "mail.php";
+        include "uzenet.php";
     }
 
 ?>
@@ -28,7 +28,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+                            <label for="name" class="">Név</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -37,7 +37,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
+                            <label for="email" class="">Email</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -50,7 +50,7 @@
                     <div class="col-md-12">
                         <div class="md-form mb-0">
                             <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
+                            <label for="subject" class="">Téma</label>
                         </div>
                     </div>
                 </div>
@@ -64,14 +64,14 @@
 
                         <div class="md-form">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
+                            <label for="message">Üzenet</label>
                         </div>
 
                     </div>
                 </div>
                 <!--Grid row-->
             <div class="text-center text-md-left">
-                <button name="send" class="btn btn-primary">Mentés</button>
+                <button name="send" class="btn btn-primary" type="submit">Mentés</button>
             </div>
             <div class="status"></div>
         </div>
